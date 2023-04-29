@@ -6,8 +6,10 @@ class TestNameError:
     '''
     a_name_error.py
     '''
+    str('hello_world')
 
     def test_name_error(self):
+        hello_world = 'hello_world'
         '''
         contains defined name "hello_world"
         '''
